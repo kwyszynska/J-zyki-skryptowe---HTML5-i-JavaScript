@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>ZEGAR</title>
+    <link rel="stylesheet" href="Style.css" />
+</head>
+<body>
+    <form>
+        <label>Alarm:</labvel>
+        <input placeholder="HH" id="alarmGodzina" />
+        <input placeholder="MM" id="alarmMinuty" />
+        <input placeholder="SS" id="alarmSekundy" />
+
+        <button onclick="ustawAlarm()">Włącz</button>
+        <button onclick="wylaczAlarm()">Wyłącz</button>
+    </form>
+
+    <div class="wall">
+        <p>Warszawa</p>    
+        <div class="clock" id="warszawa">
+            <div class="hand seconds"></div>
+            <div class="hand minutes"></div>
+            <div class="hand hours"></div>
+        </div>
+        <p>Moskwa</p>    
+        <div class="clock" id="moskwa">
+            <div class="hand seconds"></div>
+            <div class="hand minutes"></div>
+            <div class="hand hours"></div>
+        </div>
+        <p>Londyn</p> 
+        <div class="clock" id="londyn">
+            <div class="hand seconds"></div>
+            <div class="hand minutes"></div>
+            <div class="hand hours"></div>
+        </div>
+        <p>Nowy Jork</p> 
+        <div class="clock" id="nowyjork">
+               
+            <div class="hand seconds"></div>
+            <div class="hand minutes"></div>
+            <div class="hand hours"></div>
+        </div>
+        <p>Tokio</p>
+        <div class="clock" id="tokio">
+            <div class="hand seconds"></div>
+            <div class="hand minutes"></div>
+            <div class="hand hours"></div>
+        </div>
+    </div>
+    <script type="text/javascript" src="Script.js"></script>
+</body>
+</html>
