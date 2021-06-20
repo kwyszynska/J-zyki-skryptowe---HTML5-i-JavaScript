@@ -25,21 +25,28 @@ $("#2").on({
             }); 
 
 
-$("#3").on('click', function(){ 
-    $(this).animate({ 
+$("#3").on('click', function()
+ { 
+    $(this).animate
+    ({ 
         width: "+=" + 50, 
         height: "+=" + 10, 
         opacity: "-=" + 0.15, 
-        duration : 100}); 
-});
+        duration : 100
+    }); 
+}
+);
 
 
-$("#4").on('click', function(){ 
-    $(this).animate({ 
+$("#4").on('click', function()
+{ 
+    $(this).animate
+    ({ 
         width:1000,
         height:100,  
-        opacity: 0.5 }, 
-        { 
+        opacity: 0.5 
+    }, 
+    { 
             duration: 1000, 
             ease: 'linear', 
           
